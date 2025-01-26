@@ -36,6 +36,9 @@ body {
   font-family: 'Centra', sans-serif !important;
 }
 
+#connectbtn:hover{
+  color:black;
+}
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
@@ -126,6 +129,7 @@ span.navbar-text {
     margin-right: 6px;
     align-items: center;
     justify-content: center;
+    color:white;
     line-height: 1;
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
@@ -163,6 +167,10 @@ span.navbar-text {
 }
 .navbar-text button span {
   z-index: 1;
+  color:white;
+}
+.navbar-text button span:hover {
+  color:black;
 }
 .navbar-text button::before {
   content: "";
@@ -615,4 +623,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+/* Stats CSS */
+.cont{
+  color:white;
+  background-color: #121212;
+  margin:auto;
+  padding: 5%;
+  max-width: 70%;
 }
